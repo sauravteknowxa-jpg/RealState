@@ -255,7 +255,7 @@ function Real(){
                             </div>
 
                             <div className='w-[34%] bg-slate-200  '>
-                                <div className='flex flex-col items-center justify-center gap-20 px-4 py-8 '>
+                                <div className='flex flex-col items-center justify-center gap-10 px-4 py-8 '>
                                     <div className='w-full bg-white rounded-2xl gap-6 shadow-2xl shadow-slate-200 '>
                                           <div className='flex flex-col items-center justify-center gap-4 p-6 w-full'>
                                                <div className='flex flex-wrap items-center justify-between w-full '>
@@ -283,18 +283,18 @@ function Real(){
                                        </div>
 
                                        <div className='w-full bg-white rounded-2xl gap-6 shadow-2xl shadow-slate-200 '>
-                                            <div className='flex flex-col items-center justify-center gap-4 p-6  w-full'>
-                                                <div className='flex flex-wrap items-center justify-between w-full p-6 '>
+                                            <div className='flex flex-col items-center justify-center gap-4 p-3  w-full'>
+                                                <div className='flex flex-wrap items-center justify-between w-full p-3 '>
                                                         <span className='text-2xl font-semibold'>Customer Review</span>
                                                         <img src="/images/pic28.jpg" alt="" />   
                                                 </div>
 
-                                                <div className='flex flex-col items-center justify-center gap-4 px-6 w-full'>
+                                                <div className='flex flex-col items-center justify-center gap-4 px-4 w-full'>
                                                     <div className='flex flex-wrap items-center justify-between w-full gap-2 '>
-                                                        <div className=' flex flex-wrap items-center justify-start gap-4'>
+                                                        <div className=' flex flex-wrap items-center justify-start gap-2'>
                                                                 <img src="/images/pic2.jpg" alt="" />
-                                                                <div className='flex flex-col items-start justify-start gap-1 '>
-                                                                        <span className='text-xl font-bold text-green-400'>Hawkins Maru</span>
+                                                                <div className='flex flex-col items-start justify-start  '>
+                                                                        <span className='text-sm font-bold text-green-400 tetx-wrap'>Hawkins Maru</span>
                                                                         <span>5m ago</span>
                                                                 </div>
                                                         </div>
@@ -304,10 +304,10 @@ function Real(){
                                                      <hr className='text-gray-400 w-full' />
 
                                                       <div className='flex flex-wrap items-center justify-between w-full gap-2 '>
-                                                        <div className=' flex flex-wrap items-center justify-start gap-4'>
+                                                        <div className=' flex flex-wrap items-center justify-start gap-2'>
                                                                 <img src="/images/pic3.jpg" alt="" />
-                                                                <div className='flex flex-col items-start justify-start gap-1 '>
-                                                                        <span className='text-xl font-bold text-green-400'>Bella Smith</span>
+                                                                <div className='flex flex-col items-start justify-start  '>
+                                                                        <span className='text-lg font-bold text-green-400'>Bella Smith</span>
                                                                         <span>20m ago</span>
                                                                 </div>
                                                         </div>
@@ -316,11 +316,11 @@ function Real(){
                                                      <p className='text-lg text-gray-500 font-semibold'>Dealing with Syamsudin and Bakri was a joy. I got in touch with Just Property after seeing a couple of properties that caught my eye. Both Syamsudin and Bakri strive to deliver a professional service and surpassed my expectations - they were not only helpful but extremely approachable and not at all bumptious...</p>
                                                         <hr className='text-gray-400 w-full' />
 
-                                                      <div className='flex flex-wrap items-center justify-between w-full gap-2 '>
-                                                        <div className=' flex flex-wrap items-center justify-start gap-4'>
+                                                      <div className='flex flex-wrap items-cneter justify-between w-full gap-2 '>
+                                                        <div className=' flex flex-wrap items-center justify-start gap-2'>
                                                                 <img src="/images/pic4.jpg" alt="" />
-                                                                <div className='flex flex-col items-start justify-start gap-1 '>
-                                                                        <span className='text-xl font-bold text-green-400'>John Doe</span>
+                                                                <div className='flex flex-col items-start justify-start  '>
+                                                                        <span className='text-lg font-bold text-green-400'>John Doe</span>
                                                                         <span>4h ago</span>
                                                                 </div>
                                                         </div>
@@ -335,37 +335,37 @@ function Real(){
                                        </div>
 
                             <div className='w-full bg-white rounded-2xl gap-6 shadow-2xl shadow-slate-200 '>
-                                <div className='flex flex-col items-start justify-center gap-4 p-6  w-full'>
-                                        <div className='flex flex-wrap items-center justify-between w-full p-6 '>
+                                <div className='flex flex-col items-start justify-center gap-4 p-4  w-full'>
+                                        <div className='flex flex-wrap items-center justify-between w-full p-4 '>
                                                         <span className='text-2xl font-semibold'>Recent Customer</span>
                                                         <img src="/images/pic28.jpg" alt="" />   
                                         </div>
 
-                                        <div className='flex flex-col items-start justify-center gap-4 px-6 w-full'>
-                                                <div className=' flex flex-wrap items-center justify-start gap-4 '>
+                                        <div className='flex flex-col items-start justify-center gap-4 px-4 w-full'>
+                                                <div className=' flex flex-wrap items-center justify-start gap-2 '>
                                             <img src="/images/pic-5.jpg" alt="" className='rounded-xl' />
-                                                <div className='flex flex-col items-start justify-start gap-1 '>
+                                                <div className='flex flex-col items-start justify-start  '>
                                                       <span className='text-xl font-bold'>Benny Chagur</span>
                                                       <span className='text-xl text-blue-500 font-semibold'>Member</span>
                                                  </div>
                                           </div> 
-                                          <div className=' flex flex-wrap items-center justify-start gap-4 '>
+                                          <div className=' flex flex-wrap items-center justify-start gap-2 '>
                                             <img src="/images/pic6.jpg" alt="" className='rounded-xl' />
-                                                <div className='flex flex-col items-start justify-start gap-1 '>
+                                                <div className='flex flex-col items-start justify-start  '>
                                                       <span className='text-xl font-bold'>Chynita Bella</span>
                                                       <span className='text-xl text-blue-500 font-semibold'>Member</span>
                                                  </div>
                                           </div>
-                                          <div className=' flex flex-wrap items-center justify-start gap-4 '>
+                                          <div className=' flex flex-wrap items-center justify-start gap-2 '>
                                             <img src="/images/pic-7.jpg" alt="" className='rounded-xl' />
-                                                <div className='flex flex-col items-start justify-start gap-1 '>
+                                                <div className='flex flex-col items-start justify-start  '>
                                                       <span className='text-xl font-bold'>David Heree</span>
                                                       <span className='text-xl text-gray-500 font-semibold'>Regular Customer</span>
                                                  </div>
                                           </div>                 
-                                          <div className=' flex flex-wrap items-center justify-start gap-4 '>
+                                          <div className=' flex flex-wrap items-center justify-start gap-2 '>
                                             <img src="/images/pic8.jpg" alt="" className='rounded-xl' />
-                                                <div className='flex flex-col items-start justify-start gap-1 '>
+                                                <div className='flex flex-col items-start justify-start  '>
                                                       <span className='text-xl font-bold'>Evan D. Mas</span>
                                                       <span className='text-xl text-blue-500 font-semibold'>Member</span>
                                                  </div>
