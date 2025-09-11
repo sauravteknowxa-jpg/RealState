@@ -3,15 +3,15 @@ import './style.css';
 function Real(){
   return(
     <>
-        <div className='w-full flex flex-wrap'>
-                <div className=' bg-[#F5F7FA] w-1/5 border-2 border-gray-700'>
-                    <div className=" w-full flex flex-col gap-6">
+        <div className='w-full flex flex-wrap flex-col md:flex-row'>
+                <div className=' bg-[#F5F7FA] w-full md:w-1/5 border-2 border-gray-700'>
+                    <div className=" w-full flex flex-col gap-4 md:gap-6  ">
                             <nav className=" flex flex-wrap items-center justify-between bg-slate-50 text-shadow-black p-1 md:px-6 md:pt-4 w-full ">
                                 <img src="/images/pic19.jpg" alt="" />
                                 <span className='sm:text-lg md:text-2xl lg:text-4xl font-extrabold pb-3'>griya.</span>
                                 <img src="/images/pic21.jpg" alt="" />
                             </nav>
-                            <div className='flex flex-col items-start justify-start gap-4 p-4  w-full h-dvh overflow-y-auto  '>
+                            <div className='flex flex-col items-start justify-start gap-4 p-2 sm:p-4  w-full h-[60vh] md:h-dvh overflow-y-auto  '>
                              <div className='flex flex-col items-start justify-start gap-3  w-full   '>
                                 <div className=' flex flex-wrap items-start justify-start gap-3 p-3'>
                                     <img src="/images/pic15.jpg" alt="" />
@@ -63,10 +63,10 @@ function Real(){
                     </div>
                     
                 </div>
-                <div className=' bg-[#c2c7ce] w-4/5 border-2 border-gray-700'>
+                <div className=' bg-[#c2c7ce] w-full md:w-4/5 border-2 border-gray-700'>
 
                      <div className=" w-full">
-                        <nav className=" flex flex-wrap items-center justify-between bg-slate-200 text-shadow-black px-10 py-4 w-full ">
+                        <nav className=" flex flex-wrap items-center justify-between bg-slate-200 text-shadow-black p-2 sm:p-3 md:px-8 md:pt-4 w-full ">
                             <div className="flex flex-col md:flex-row justify-center items-center p-2 rounded-4xl shadow-xl shadow-slate-400 ">
                                 <input type="text" placeholder='Search here' className='px-8 py-2 bg-gray-200 ' />
                             </div>
@@ -97,49 +97,49 @@ function Real(){
                      </div>
 
                      <div className='w-full '>
-                            <div className='bg-slate-200 flex flex-wrap items-center justify-between px-12 py-20'>
-                                    <span className="text-xl md:text-4xl text-center text-black font-bold">Dashboard</span>
-                                    <span className="text-xl md:text-4xl text-center text-gray-400 font-semibold">Dashboard <span className='text-blue-400'>/ Dashboard</span> </span>
+                            <div className='bg-slate-200 flex flex-wrap items-center justify-between px-3 sm:px-6 Md:px-12 py-6 md:py-20'>
+                                    <span className="text-base sm:text-xl md:text-4xl text-center text-black font-bold">Dashboard</span>
+                                    <span className="text-base sm:text-xl md:text-4xl text-center text-gray-400 font-semibold">Dashboard <span className='text-blue-400'>/ Dashboard</span> </span>
                             </div>
                      </div>
 
                      <div className='w-full'>
-                            <div className='bg-slate-200 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-between px-12 py-10 gap-6'>
+                            <div className='bg-slate-200 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-between px-2 sm:px-6  md:px-12 py-6 md:py-10 gap-6'>
                                 <div className='bg-white flex flex-wrap items-center rounded-2xl shadow-2xl shadow-slate-400 p-4'>
                                     <div className='flex flex-col items-center justify-center w-1/2 '>
-                                            <h2 className="text-sm md:text-lg text-center text-gray-500 font-bold">Properties for Sale</h2>
-                                            <span className="text-sm md:text-xl text-center text-black font-bold">684</span>
+                                            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-gray-500 font-bold">Properties for Sale</h2>
+                                            <span className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-black font-bold">684</span>
                                     </div>
-                                    <img src="/images/pic22.jpg" alt=""  className='w-1/2'/>
+                                    <img src="/images/pic22.jpg" alt=""  className='w-full sm:w-auto md:w-1/2'/>
                                 </div>
                                 <div className='bg-white flex flex-wrap items-center rounded-2xl shadow-2xl shadow-slate-400 p-4'>
                                     <div className='flex flex-col items-center justify-center w-1/2'>
-                                            <h2 className="text-sm md:text-lg text-center text-gray-500 font-bold">Properties for Rent</h2>
-                                            <span className="text-xl md:text-4xl text-center text-black font-bold">546</span>
+                                            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-gray-500 font-bold">Properties for Rent</h2>
+                                            <span className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-black font-bold">546</span>
                                     </div>
-                                    <img src="/images/pic24.jpg" alt="" className='w-1/2' />
+                                    <img src="/images/pic24.jpg" alt="" className='w-full sm:w-auto md:w-1/2' />
                                 </div>
                                 <div className='bg-white flex flex-wrap items-center rounded-2xl shadow-2xl shadow-slate-400 p-4'>
                                     <div className='flex flex-col items-center justify-center w-1/2'>
-                                            <h2 className="text-sm md:text-lg text-center text-gray-500 font-bold">Total Customer </h2>
-                                            <span className="text-xl md:text-4xl text-center text-black font-bold">3,672</span>
+                                            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-gray-500 font-bold">Total Customer </h2>
+                                            <span className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-black font-bold">3,672</span>
                                     </div>
-                                    <img src="/images/pic23.jpg" alt="" className='w-1/2' />
+                                    <img src="/images/pic23.jpg" alt="" className='w-full sm:w-auto md:w-1/2' />
                                 </div>
                                 <div className='bg-white flex flex-wrap items-center rounded-2xl shadow-2xl shadow-slate-400 p-4'>
                                     <div className='flex flex-col items-center justify-center w-1/2'>
-                                            <h2 className="text-sm md:text-lg text-center text-gray-500 font-bold">Total City</h2>
-                                            <span className="text-xl md:text-4xl text-center text-black font-bold">75</span>
+                                            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl  text-center text-gray-500 font-bold">Total City</h2>
+                                            <span className="text-sm sm:text-base md:text-lg lg:text-xl text-center text-black font-bold">75</span>
                                     </div>
-                                    <img src="/images/pic25.jpg" alt="" className='w-1/2' />
+                                    <img src="/images/pic25.jpg" alt="" className='w-full sm:w-auto md:w-1/2' />
                                 </div>
                             </div>
                      </div>
 
                 <div className='w-full flex flex-wrap gap-2 p-4 justify-between bg-slate-200'>
 
-                            <div className='w-[63%] bg-slate-200 '>
-                                <div className='flex flex-col items-center justify-center gap-8 p-10 '>
+                            <div className='w-full md:w-[63%] bg-slate-200 '>
+                                <div className='flex flex-col items-center justify-center gap-4 md:gap-8 p-4 md:p-10 '>
                                         <div className='w-full bg-white rounded-2xl  shadow-2xl shadow-slate-200 '>
                                             <div className='flex flex-col w-full'>
                                                     <div className='flex flex-wrap items-center justify-between w-full p-6 '>
@@ -211,7 +211,7 @@ function Real(){
                                                 <div className='flex flex-wrap items-center justify-center w-full gap-2 p-6 '>
                                                     <img src="/images/pic31.jpg" alt="" />
                                                 </div>
-                                                <div className='grid md:grid-cols-2 items-start justify-between w-full gap-4 p-6'>
+                                                <div className='grid grid-cols-1 md:grid-cols-2 items-start justify-between w-full gap-2 md:gap-4 p-3 md:p-6'>
                                                          <div className=' flex flex-wrap items-center justify-start gap-4'>
                                                             <img src="/images/pic35.jpg" alt="" />
                                                             <span className='text-lg font-normal'>Sale Properties</span>
@@ -254,7 +254,7 @@ function Real(){
 
                             </div>
 
-                            <div className='w-[34%] bg-slate-200  '>
+                            <div className='w-full md:w-[34%] bg-slate-200  '>
                                 <div className='flex flex-col items-center justify-center gap-10 px-4 py-8 '>
                                     <div className='w-full bg-white rounded-2xl gap-6 shadow-2xl shadow-slate-200 '>
                                           <div className='flex flex-col items-center justify-center gap-4 p-6 w-full'>

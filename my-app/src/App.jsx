@@ -1,10 +1,12 @@
-import Real from "./component/Real";
+import Addina from "./component/Addina";
+//import Real from "./component/Real";
+//import Real from "./component/Real";
 
 function App(){
   return(
     <>
       <div>
-          <Real />
+          <Addina />
       </div>
     
     </>
